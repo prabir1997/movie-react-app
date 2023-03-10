@@ -52,7 +52,7 @@ button[type="submit"] {
 
 .movie img {
   width: 100%;
-  height: 400px;
+  height: 300px;
 }
 
 @media only screen and (max-width: 768px) {
