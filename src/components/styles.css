@@ -39,7 +39,7 @@ button[type="submit"] {
 .movie-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 100px;
+  grid-gap: 50px;
 }
 
 .movie {
