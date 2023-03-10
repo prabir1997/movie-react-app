@@ -1,0 +1,69 @@
+.app {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 20px;
+}
+body {
+  background-color: #333333;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+.error{
+  color: white;
+}
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #0078d7;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.movie-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 100px;
+}
+
+.movie {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.movie img {
+  width: 100%;
+  height: 400px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* CSS styles here will apply when screen size is less than or equal to 768px */
+  .movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .movie {
+    margin: 10px;
+  }
+}
+
